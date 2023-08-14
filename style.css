@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Tilt+Prism&display=swap');
+
+*{
+    font-family: 'poppins';
+}
+
+.navbar-brand, .navbar-brand span{
+    font-family: 'Tilt Prism';
+    font-size: xx-large;
+}
+
+
+.section-padding{
+    padding: 100px 0;
+}
+
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+  
+}
+
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 20px;
+    line-height: 2;
+
+}
+
+.carousel-inner:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+.w-100{
+    height: 100vh;
+}
+
+
+.card-body i{
+    font-size: 50px;
+}
+
+.portfolio .card{
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+}
+
+.team .card-body i{
+    font-size: 20px;
+    margin: 1px;
+}
+
+.team .card{
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+}
+
+
+
+@media only screen and (min-width:768px) and (max-width:991px){
+
+    .card{
+        margin-bottom: 30px;
+    }
+}
+
+
+
+@media only screen and (max-width:767px){
+
+    .navbar-nav{
+        text-align: center;
+    }
+
+    .carousel-caption{
+        bottom: 125px;
+    }
+
+    .carousel-caption h5{
+        font-size: 25px;
+    }
+
+    .carousel-caption p{
+        font-size: 20px;
+    }
+
+    .card{
+        margin-bottom: 30px;
+    }
+}
